@@ -10,6 +10,12 @@
 
 ## Installation
 
+To install my fork:
+```r
+devtools::install_github("fbaffie/rmdshower")
+```
+
+To install the original version:
 ```r
 devtools::install_github("mangothecat/rmdshower")
 ```
