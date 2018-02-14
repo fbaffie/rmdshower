@@ -1,4 +1,5 @@
 
+
 find_theme <- function(theme) {
 
   ## builtin-themes
@@ -13,7 +14,7 @@ find_theme <- function(theme) {
 ## This is temporary, and will be removed later
 
 find_builtin_theme <- function(theme) {
-  system.file("node_modules", paste0("shower-", theme), package = "rmdshower")
+  system.file(package = "rmdshower") 
 }
 
 #' @importFrom utils installed.packages
